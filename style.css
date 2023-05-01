@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form{
+    width: 300px;
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 20px;
+    position: relative;
+}
+
+form input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    border-color: black;
+}
+
+form button{
+    width: 100%;
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form label{
+    color: black;
+    font-size: 1.05rem;
+    display: block;
+    margin-top: 20px;
+}
+
+.error{
+    color: red;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: none;
+}
